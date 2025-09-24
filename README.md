@@ -18,7 +18,7 @@
 </head>
 <body>
   <!-- Background audio (autoplays and loops, hidden from user) -->
-  <audio autoplay controls>
+  <audio autoplay loop hidden>
     <audio src="tes.mp3" type="audio/mp3">
   </audio>
 
