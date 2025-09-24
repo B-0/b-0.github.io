@@ -18,8 +18,8 @@
 </head>
 <body>
   <!-- Background audio (autoplays and loops, hidden from user) -->
-  <audio autoplay loop hidden>
-    <source src="tes.mp3" type="audio/mp3">
+  <audio autoplay>
+    <audio src="tes.mp3" type="audio/mp3">
   </audio>
 
   <!-- Embed your Google Form -->
