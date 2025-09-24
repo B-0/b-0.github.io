@@ -17,12 +17,10 @@
   </style>
 </head>
 <body>
-  <!-- Background audio (autoplays and loops, hidden from user) -->
   <audio autoplay loop hidden>
     <audio src="tes.mp3" type="audio/mp3">
   </audio>
 
-  <!-- Embed your Google Form -->
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpd2M0HGkUM9dLuYjxFOvTqHreGqKe0WIGFKCieSA54OQ9YA/viewform?usp=header"></iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpd2M0HGkUM9dLuYjxFOvTqHreGqKe0WIGFKCieSA54OQ9YA/viewform?usp=header"></iframe>
 </body>
 </html>
