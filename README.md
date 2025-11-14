@@ -25,15 +25,7 @@
 
 
 <!-- GOOGLE FORM EMBED -->
-<iframe 
-  src="https://docs.google.com/forms/d/e/1FAIpQLSdpd2M0HGkUM9dLuYjxFOvTqHreGqKe0WIGFKCieSA54OQ9YA/viewform?usp=header"
-  width="100%" 
-  height="1200"
-  frameborder="0" 
-  marginheight="0" 
-  marginwidth="0">
-  Loading…
-</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdBdmzNpWii84Xi_LnOSHlbBbF3AFNewAZ6ZZkS7rt4FK48Bw/viewform?embedded=true" width="640" height="602" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 </body>
 </html>
