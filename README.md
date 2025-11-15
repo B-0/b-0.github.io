@@ -14,7 +14,7 @@
 
 <!-- AUDIO PLAYER -->
 <audio id="audio" autoplay>
-  <source src="printaudio2.mp3" type="audio/mp3">
+  <source src="printaudio2.mp3" type="audio/mpeg">
 </audio>
 
 <script>
