@@ -13,8 +13,8 @@
 <p>The audio starts automatically and cannot be paused.</p>
 
 <!-- AUDIO PLAYER -->
-<audio id="audio" autoplay>
-  <source src="https://github.com/B-0/b-0.github.io/blob/main/printaudio2.mp3" type="audio/mpeg">
+<audio autoplay>
+  <source src="printaudio2.mp3" type="audio/mpeg">
 </audio>
 
 <script>
