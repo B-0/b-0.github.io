@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Forced Audio Survey</title>
+  <title>Kuesioner</title>
   <style>
     body { font-family: sans-serif; padding: 20px; text-align: center; }
     #content { display: none; }
@@ -10,12 +9,13 @@
 </head>
 <body>
 
-<h2>Click below to begin the survey.</h2>
+<h2>Tekan tombol di bawah ini untuk membuka kuesioner.</h2>
+<h2>Kuesioner tersebut akan mengeluarkan suara yang berlangsung selama Anda mengisi kuesioner. Mohon untuk tidak menurunkan volume ataupun mematikan suara perangkat Anda sampai Anda selesai mengisi kuesioner.</h2>
 <button id="startBtn" style="padding: 10px 20px; font-size: 18px;">Begin</button>
 
 <div id="content">
 
-  <h3>Please keep the audio playing while completing the survey.</h3>
+  <h3>Mohon untuk tidak menurunkan volume perangkat Anda selama mengisi kuesioner.</h3>
 
   <!-- AUDIO -->
   <audio id="audio" autoplay>
