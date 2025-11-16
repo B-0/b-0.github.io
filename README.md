@@ -9,9 +9,9 @@
 </head>
 <body>
 
-<h2>Tekan tombol di bawah ini untuk membuka kuesioner.</h2>
+<h2>Tekan tombol "Mulai" di bawah ini untuk membuka kuesioner.</h2>
 <h2>Kuesioner tersebut akan mengeluarkan suara yang berlangsung selama Anda mengisi kuesioner. Mohon untuk tidak menurunkan volume ataupun mematikan suara perangkat Anda sampai Anda selesai mengisi kuesioner.</h2>
-<button id="startBtn" style="padding: 10px 20px; font-size: 18px;">Begin</button>
+<button id="startBtn" style="padding: 10px 20px; font-size: 18px;">Mulai</button>
 
 <div id="content">
 
