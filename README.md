@@ -46,6 +46,7 @@
     // Start audio after interaction
     if (audioCondition) {
       const audio = document.getElementById("audio");
+      }
     });
   }
 </script>
