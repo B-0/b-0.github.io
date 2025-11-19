@@ -37,15 +37,13 @@
 <script>
   if (audioCondition) {
     document.getElementById("audioWarning").style.display = "block"; // show the warning
-    document.getElementById("audio").style.display = "block";        // show the audio element
-  }
   document.getElementById("startBtn").addEventListener("click", function() {
     document.getElementById("content").style.display = "block";
     this.style.display = "none";
     // Start audio after interaction
     const audio = document.getElementById("audio");
-    audio.play();
-  });
+    });
+  }
 </script>
 
 </body>
