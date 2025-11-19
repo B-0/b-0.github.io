@@ -38,7 +38,7 @@
 <script>
   if (audioCondition) {
     const myElement = document.getElementByID("audioWarning");
-    audioWarning.removeAttribute('hidden');
+    audioWarning.hidden = false;
   };
   document.getElementById("startBtn").addEventListener("click", function() {
     document.getElementById("content").style.display = "block";
