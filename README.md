@@ -13,12 +13,11 @@
 <body>
   
 <h2>Tekan tombol "Mulai" di bawah ini untuk membuka kuesioner.</h2>
-<h2>Kuesioner tersebut akan mengeluarkan suara yang tidak bisa dihentikan selama Anda mengisi kuesioner. Mohon untuk mengatur volume suara perangkat Anda agar suara tersebut dapat terdengar dengan jelas. Lalu, mohon tidak menurunkan volume ataupun mematikan suara perangkat Anda sampai Anda selesai mengisi kuesioner.</h2>
+<h2 id="audioWarning">
+  Kuesioner tersebut akan mengeluarkan suara yang tidak bisa dihentikan selama Anda mengisi kuesioner. Mohon untuk mengatur volume suara perangkat Anda agar suara tersebut dapat terdengar dengan jelas. Lalu, mohon tidak menurunkan volume ataupun mematikan suara perangkat Anda sampai Anda selesai mengisi kuesioner.</h2>
 <button id="startBtn" style="padding: 10px 20px; font-size: 18px;">Mulai</button>
 
 <div id="content">
-
-  <h3>Mohon untuk tidak menurunkan volume perangkat Anda selama mengisi kuesioner.</h3>
 
   <!-- AUDIO -->
   <audio id="audio" autoplay>
@@ -36,6 +35,10 @@
 </div>
 
 <script>
+  if (audioCondition) {
+    document.getElementById("audioWarning").style.display = "block"; // show the warning
+    document.getElementById("audio").style.display = "block";        // show the audio element
+  }
   document.getElementById("startBtn").addEventListener("click", function() {
     document.getElementById("content").style.display = "block";
     this.style.display = "none";
