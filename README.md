@@ -13,24 +13,21 @@
 <body>
   
 <h2>Tekan tombol "Mulai" di bawah ini untuk membuka kuesioner.</h2>
-<h2 id="audioWarning" hidden>
-  Kuesioner tersebut akan mengeluarkan suara yang tidak bisa dihentikan selama Anda mengisi kuesioner. Mohon untuk mengatur volume suara perangkat Anda agar suara tersebut dapat terdengar dengan jelas. Lalu, mohon tidak menurunkan volume ataupun mematikan suara perangkat Anda sampai Anda selesai mengisi kuesioner.</h2>
+<h2>Kuesioner tersebut akan mengeluarkan suara yang tidak bisa dihentikan selama Anda mengisi kuesioner. Mohon untuk mengatur volume suara perangkat Anda agar suara tersebut dapat terdengar dengan jelas. Lalu, mohon tidak menurunkan volume ataupun mematikan suara perangkat Anda sampai Anda selesai mengisi kuesioner.</h2>
 <button id="startBtn" style="padding: 10px 20px; font-size: 18px;">Mulai</button>
 
 <div id="content">
 
+  <h3>Mohon untuk tidak menurunkan volume perangkat Anda selama mengisi kuesioner.</h3>
+
   <!-- AUDIO -->
-  if (audioCondition) {
-    <audio id="audio" autoplay>
-      <source src="printaudio2.mp3" type="audio/mpeg">
-    </audio>
-  }
+  <audio id="audio" autoplay>
+    <source src="printaudio2.mp3" type="audio/mpeg">
+  </audio>
 
   <script>
-    if (audioCondition) {
-      const audio = document.getElementById("audio");
-      audio.onpause = () => audio.play();
-    }
+    const audio = document.getElementById("audio");
+    audio.onpause = () => audio.play();
   </script>
 
   <!-- GOOGLE FORM -->
@@ -39,19 +36,12 @@
 </div>
 
 <script>
-  if (audioCondition) {
-    const myElement = document.getElementByID("audioWarning);
-    myElement.removeattribute('hidden')
-  }
-  
- document.getElementById("startBtn").addEventListener("click", function() {
+  document.getElementById("startBtn").addEventListener("click", function() {
     document.getElementById("content").style.display = "block";
     this.style.display = "none";
     // Start audio after interaction
-    if (audioCondition) {
-      const audio = document.getElementById("audio");
-      audio.play();
-    }
+    const audio = document.getElementById("audio");
+    audio.play();
   });
 </script>
 
