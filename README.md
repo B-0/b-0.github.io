@@ -20,7 +20,7 @@
 <div id="content">
 
   <!-- AUDIO -->
-  <audio id="audio" autoplay>
+  <audio id="audio">
     <source src="printaudio2.mp3" type="audio/mpeg">
   </audio>
 
@@ -46,6 +46,7 @@
     // Start audio after interaction
     if (audioCondition) {
       const audio = document.getElementById("audio");
+      audio.play;
       }
     });
   }
