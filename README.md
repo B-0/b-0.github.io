@@ -20,13 +20,17 @@
 <div id="content">
 
   <!-- AUDIO -->
-  <audio id="audio">
-    <source src="printaudio2.mp3" type="audio/mpeg">
-  </audio>
+  if (audioCondition) {
+    <audio id="audio" autoplay>
+      <source src="printaudio2.mp3" type="audio/mpeg">
+    </audio>
+  }
 
   <script>
-    const audio = document.getElementById("audio");
-    audio.onpause = () => audio.play();
+    if (audioCondition) {
+      const audio = document.getElementById("audio");
+      audio.onpause = () => audio.play();
+    }
   </script>
 
   <!-- GOOGLE FORM -->
@@ -40,16 +44,15 @@
     myElement.removeattribute('hidden')
   }
   
-  document.getElementById("startBtn").addEventListener("click", function() {
+ document.getElementById("startBtn").addEventListener("click", function() {
     document.getElementById("content").style.display = "block";
     this.style.display = "none";
     // Start audio after interaction
     if (audioCondition) {
       const audio = document.getElementById("audio");
-      audio.play;
-      }
-    });
-  }
+      audio.play();
+    }
+  });
 </script>
 
 </body>
