@@ -17,9 +17,7 @@
 <button id="startBtn" style="padding: 10px 20px; font-size: 18px;">Mulai</button>
 
 <div id="content">
-
-  <h3>Mohon untuk tidak menurunkan volume perangkat Anda selama mengisi kuesioner.</h3>
-
+  
   <!-- AUDIO -->
   <audio id="audio" autoplay>
     <source src="printaudio2.mp3" type="audio/mpeg">
