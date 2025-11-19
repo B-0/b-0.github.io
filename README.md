@@ -7,8 +7,11 @@
     #content { display: none; }
   </style>
 </head>
+<script>
+  const audioCondition = Math.random() < 0.5;
+</script>
 <body>
-
+  
 <h2>Tekan tombol "Mulai" di bawah ini untuk membuka kuesioner.</h2>
 <h2>Kuesioner tersebut akan mengeluarkan suara yang tidak bisa dihentikan selama Anda mengisi kuesioner. Mohon untuk mengatur volume suara perangkat Anda agar suara tersebut dapat terdengar dengan jelas. Lalu, mohon tidak menurunkan volume ataupun mematikan suara perangkat Anda sampai Anda selesai mengisi kuesioner.</h2>
 <button id="startBtn" style="padding: 10px 20px; font-size: 18px;">Mulai</button>
