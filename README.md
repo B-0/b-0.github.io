@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <title>Kuesioner</title>
   <style>
-    body { font-family: sans-serif; padding: 20px; text-align: center; }
+    body { font-family: sans-serif; padding: 20px; text-align: left; }
     #content { display: none; }
     #audioWarning { display: none; }
     #kode { display: none; }
