@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <title>Kuesioner</title>
   <style>
-    body { font-family: sans-serif; padding: 20px; text-align: left; }
+    body { font-family: sans-serif; padding: 20px; text-align: center; }
     #content { display: none; }
     #audioWarning { display: none; }
     #kode { display: none; }
@@ -23,7 +23,7 @@
 
 <!-- THIS TEXT SHOULD ONLY SHOW IF AUDIO IS ACTIVE -->
 <h2 id="audioWarning">
-Kuesioner tersebut akan mengeluarkan suara yang tidak bisa dihentikan selama Anda mengisi kuesioner.<br>Mohon untuk mengatur volume suara perangkat Anda agar suara tersebut dapat terdengar dengan jelas. Lalu, mohon tidak menurunkan volume ataupun mematikan suara perangkat Anda sampai Anda selesai mengisi kuesioner.<br>Suara tersebut mengandung informasi yang diperlukan untuk kuesioner. Jika Anda tidak mendengarkan, maka Anda tidak akan dapat memberikan jawaban yang sesuai, dan Anda akan didiskualifikasi sebagai partisipan.</h2>
+Kuesioner tersebut akan mengeluarkan suara yang tidak bisa dihentikan selama Anda mengisi kuesioner.<br>Mohon untuk mengatur volume suara perangkat Anda agar suara tersebut dapat terdengar dengan jelas. Lalu, mohon tidak menurunkan volume atau mematikan suara perangkat Anda sampai Anda selesai mengisi kuesioner.<br>Bagian akhir kuesioner terkait dengan suara tersebut dan informasi yang terdapat di dalamn suara tersebut. Jika Anda tidak mendengarkan, maka Anda tidak akan dapat memberikan jawaban yang sesuai, dan Anda akan didiskualifikasi sebagai partisipan.</h2>
 
 <h2 id ="kode">Pada bagian akhir kuesioner, anda juga akan diminta untuk memasukkan kode berikut: AUD25</h2>
 <h2 id ="kodeno">Pada bagian akhir kuesioner, anda juga akan diminta untuk memasukkan kode berikut: NOA25</h2>
