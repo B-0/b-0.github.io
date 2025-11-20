@@ -23,10 +23,10 @@
 
 <!-- THIS TEXT SHOULD ONLY SHOW IF AUDIO IS ACTIVE -->
 <h2 id="audioWarning">
-Kuesioner tersebut akan mengeluarkan suara yang tidak bisa dihentikan selama Anda mengisi kuesioner.<br>Mohon untuk mengatur volume suara perangkat Anda agar suara tersebut dapat terdengar dengan jelas. Lalu, mohon tidak menurunkan volume atau mematikan suara perangkat Anda sampai Anda selesai mengisi kuesioner.<br>Bagian akhir kuesioner terkait dengan suara tersebut dan informasi yang terdapat di dalamn suara tersebut. Jika Anda tidak mendengarkan, maka Anda tidak akan dapat memberikan jawaban yang sesuai, dan Anda akan didiskualifikasi sebagai partisipan.</h2>
+Kuesioner tersebut akan mengeluarkan suara yang tidak bisa dihentikan selama Anda mengisi kuesioner.<br>Mohon untuk mengatur volume suara perangkat Anda agar suara tersebut dapat terdengar dengan jelas. Lalu, mohon tidak menurunkan volume atau mematikan suara perangkat Anda sampai Anda selesai mengisi kuesioner.<br>Bagian akhir kuesioner terkait dengan suara tersebut dan informasi yang terdapat di dalamnya. Jika Anda tidak mendengarkan, maka Anda tidak bisa memberikan jawaban yang sesuai, dan Anda akan didiskualifikasi sebagai partisipan.</h2>
 
 <h2 id ="kode">Pada bagian akhir kuesioner, anda juga akan diminta untuk memasukkan kode berikut: AUD25</h2>
-<h2 id ="kodeno">Pada bagian akhir kuesioner, anda juga akan diminta untuk memasukkan kode berikut: NOA25</h2>
+<h2 id ="kodeno">Pada bagian akhir kuesioner, anda akan diminta untuk memasukkan kode berikut: NOA25</h2>
 
 <button id="startBtn" style="padding: 10px 20px; font-size: 18px;">Mulai</button>
 
