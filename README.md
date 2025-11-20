@@ -23,6 +23,9 @@
 <h2 id="audioWarning">
 Kuesioner tersebut akan mengeluarkan suara yang tidak bisa dihentikan selama Anda mengisi kuesioner.<br>Mohon untuk mengatur volume suara perangkat Anda agar suara tersebut dapat terdengar dengan jelas. Lalu, mohon tidak menurunkan volume ataupun mematikan suara perangkat Anda sampai Anda selesai mengisi kuesioner.<br>Suara tersebut mengandung informasi yang diperlukan untuk bagian akhir kuesioner. Jika Anda tidak mendengarkan, maka Anda tidak akan dapat memberikan jawaban yang sesuai, dan Anda akan didiskualifikasi sebagai partisipan.</h2>
 
+<h2 id ="kode">Pada bagian akhir kuesioner, anda akan diminta untuk memasukkan kode berikut: CLUI2025</h2>
+<h2 id ="kodeno">Pada bagian akhir kuesioner, anda akan diminta untuk memasukkan kode berikut: NOCLUI2025</h2>
+
 <button id="startBtn" style="padding: 10px 20px; font-size: 18px;">Mulai</button>
 
 <div id="content">
@@ -42,7 +45,12 @@ Kuesioner tersebut akan mengeluarkan suara yang tidak bisa dihentikan selama And
   // SHOW/HIDE ELEMENTS BASED ON RANDOMIZATION
   if (audioCondition) {
     document.getElementById("audioWarning").style.display = "block"; // show the warning
+    document.getElementById("kode").style.display = "block";
     document.getElementById("audio").style.display = "block";        // show the audio element
+  }
+
+  if (audioCondition = false) {
+    document.getElementById("kodeno").style.display = "block";
   }
 
   // START BUTTON
