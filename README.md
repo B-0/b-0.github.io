@@ -42,15 +42,13 @@ Kuesioner tersebut akan mengeluarkan suara yang tidak bisa dihentikan selama And
 </div>
 
 <script>
+  document.getElementById("kodeno").style.display = "block";
   // SHOW/HIDE ELEMENTS BASED ON RANDOMIZATION
   if (audioCondition) {
     document.getElementById("audioWarning").style.display = "block"; // show the warning
     document.getElementById("kode").style.display = "block";
+    document.getElementById("kodeno").style.display = "none";
     document.getElementById("audio").style.display = "block";        // show the audio element
-  }
-
-  if (audioCondition = false) {
-    document.getElementById("kodeno").style.display = "block";
   }
 
   // START BUTTON
