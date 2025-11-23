@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Kuesioner</title>
+  <title>Kuesioner Persepsi Sosial WNI</title>
   <style>
     body { font-family: sans-serif; padding: 20px; text-align: center; }
     #content { display: none; }
