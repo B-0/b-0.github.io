@@ -19,6 +19,7 @@
 
 <body>
 
+<h1>Kuesioner Persepsi Sosial WNI</h1>
 <h2>Tekan tombol "Mulai" di bawah ini untuk membuka kuesioner.</h2>
 
 <!-- THIS TEXT SHOULD ONLY SHOW IF AUDIO IS ACTIVE -->
