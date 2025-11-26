@@ -24,7 +24,7 @@
 
 <!-- THIS TEXT SHOULD ONLY SHOW IF AUDIO IS ACTIVE -->
 <h2 id="audioWarning">
-Kuesioner tersebut akan mengeluarkan suara yang tidak bisa dihentikan selama Anda mengisi kuesioner.<br>Mohon untuk mengatur volume suara perangkat Anda agar suara tersebut dapat terdengar dengan jelas. Lalu, mohon tidak menurunkan volume atau mematikan suara perangkat Anda sampai Anda selesai mengisi kuesioner.<br>Bagian akhir kuesioner terkait dengan suara tersebut dan informasi yang terdapat di dalamnya. Jika Anda tidak mendengarkan, maka Anda tidak bisa memberikan jawaban yang sesuai, dan Anda akan didiskualifikasi sebagai partisipan.</h2>
+Kuesioner tersebut akan mengeluarkan suara selama Anda mengisi kuesioner.<br>Mohon untuk mengatur volume suara perangkat Anda agar suara tersebut dapat terdengar dengan jelas. Lalu mohon tidak menurunkan volume atau mematikan suara perangkat Anda sampai Anda selesai mengisi kuesioner.<br>Bagian akhir kuesioner terkait dengan suara tersebut dan informasi yang terdapat di dalamnya. Jika Anda tidak mendengarkan, maka Anda tidak bisa memberikan jawaban yang sesuai, dan Anda akan didiskualifikasi sebagai partisipan.</h2>
 
 <h2 id ="kode">Kode verifikasi: AUD25</h2>
 <h2 id ="kodeno">Kode verifikasi: NOA25</h2>
