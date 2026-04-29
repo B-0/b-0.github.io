@@ -24,7 +24,7 @@
 
 <!-- THIS TEXT SHOULD ONLY SHOW IF AUDIO IS ACTIVE -->
 <h2 id="audioWarning">
-Kuesioner tersebut akan mengeluarkan suara selama Anda mengisi kuesioner.<br>Mohon untuk mengatur volume suara perangkat Anda agar suara tersebut dapat terdengar dengan jelas. Lalu mohon tidak menurunkan volume atau mematikan suara perangkat Anda sampai Anda selesai mengisi kuesioner.<br>Bagian akhir kuesioner terkait dengan suara tersebut dan informasi yang terdapat di dalamnya. Jika Anda tidak mendengarkan, maka Anda tidak bisa memberikan jawaban yang sesuai, dan Anda akan didiskualifikasi sebagai partisipan.</h2>
+Suara yang keluar dari kuesioner ini sangat penting. Anda dilarang untuk mematikan suara perangkat Anda selama mengerjakan kuesioner.</h2>
 
 <h2 id ="kode">Kode verifikasi: AUD25</h2>
 <h2 id ="kodeno">Kode verifikasi: NOA25</h2>
@@ -39,7 +39,7 @@ Kuesioner tersebut akan mengeluarkan suara selama Anda mengisi kuesioner.<br>Moh
   </audio>
 
   <!-- GOOGLE FORM -->
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdBdmzNpWii84Xi_LnOSHlbBbF3AFNewAZ6ZZkS7rt4FK48Bw/viewform?embedded=true" 
+  <iframe src="https://forms.gle/toh7g9q2BFgm14zh8" 
           width="640" height="602" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 </div>
